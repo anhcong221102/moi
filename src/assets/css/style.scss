@@ -1,0 +1,280 @@
+html,
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+.nav-link {
+    color: #999 !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    font-weight: 600;
+    margin: 0px 6px;
+
+    transition: 0.5s all;
+
+
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    height: 0.5px;
+    width: 100%;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: all 0.5s;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+}
+
+/*-- header --*/
+h1 a.navbar-brand {
+    padding-top: 10px;
+    font-size: 37px;
+    color: red !important;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    margin-right: 0px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    background-color: #000;
+    z-index: 999;
+}
+
+ul.navbar-nav {
+    width: 100%;
+    justify-content: right;
+margin-right: 50px;
+}
+
+
+
+/*--footer--*/
+.buttom-footer {
+    background: #000;
+}
+.search{
+    color: #ffffff;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.user{
+    color: #ffffff;
+   margin-top: 5px;
+}
+.fill-all-form input[type="email"] {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ffffff;
+    padding: .8em .7em;
+    border-radius: 0px;
+    outline: none !important;
+    font-size: 14px;
+}
+
+.click-me,
+button[type=submit] {
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #b17812;
+    outline: none;
+    padding: 12.5px 13px;
+    border: 1px solid #b17812;
+    border-radius: 0px;
+}
+
+.subscribe-form {
+    display: flex;
+}
+
+.email-info {
+    flex: 1;
+}
+
+.collapse {
+    margin-left: 100px;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.sing-up-jel {
+    margin-left: 20px;
+    flex-direction: row;
+    display: flex;
+}
+
+
+
+
+
+
+.wthree-left-right h4 {
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 21px;
+
+}
+
+footer {
+    background: #000;
+}
+
+
+
+
+/*-- //footer --*/
+footer .top {
+    padding-top: 2%;
+    padding-bottom: 4.5%;
+}
+
+footer {
+    width: 100%;
+    background: #000;
+    color: #999;
+    font-size: 12px;
+    border-top: 1px solid #333;
+}
+
+.nav-link1 {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.5s all;
+    text-decoration: none;
+    position: relative;
+    margin-top: 30px;
+    margin: 0px 4px;
+
+}
+
+.nav-link1::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    color: #fff;
+
+    // transition: all 0.5s;
+}
+
+.nav-link1:hover {
+    color: #fff;
+}
+
+.nav-link1:hover::after {
+    transform: scaleX(1);
+}
+
+.nav-link2 {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.5s all;
+    text-decoration: none;
+    position: relative;
+    margin-top: 30px;
+    margin: 0px 4px;
+}
+
+.nav-link3 {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    text-decoration: none;
+    position: relative;
+    margin-top: 30px;
+    margin: 0px 4px;
+}
+
+.nav-link3::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.nav-link3:hover {
+    color: #fff;
+}
+
+.nav-link1:hover::after {
+    transform: scaleX(1);
+}
+
+.header {
+    width: 100%;
+    z-index: 9999;
+    background: rgba(245, 245, 245, 0);
+
+}
+
+.nav-link4 {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    margin-top: 5px;
+
+
+}
+
+.nav-link4::after {
+    content: "";
+    position: absolute;
+    height: 0.5px;
+    width: 100%;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    color: #fff;
+
+    // transition: all 0.5s;
+}
+
+.nav-link4:hover {
+    color: #fff;
+}
+
+.nav-link4:hover::after {
+    transform: scaleX(1);
+}
